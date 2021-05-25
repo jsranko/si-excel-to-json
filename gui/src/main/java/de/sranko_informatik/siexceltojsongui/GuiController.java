@@ -40,6 +40,7 @@ public class GuiController {
         String response = null, msg = null;
         try {
             callbackData = fileService.parseFile(file);
+            System.out.println(callbackData.toString());
             response = fileService.sendData(callbackData, new JSONObject(clientInfo),callbackUrl);
             msg = String.format("File %s (%s) wurde erfolgreich bearbeitet. %s, %s", fileService.getName(), fileService.getHumanReadableSize(), callbackUrl, clientInfo);
 

@@ -111,8 +111,9 @@
             uploadFormData(formData);
         });
         function uploadFormData(form_data) {
-            $.ajax({
-                url: "/uploadFile?",
+            var reqUrl = [[@{/uploadFile}]]
+        	$.ajax({
+                url: reqUrl,
                 method: "POST",
                 data: form_data,
                 contentType: false,
