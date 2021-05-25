@@ -7,6 +7,16 @@
     <artifactId>si-excel-to-json</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <developers>
+        <developer>
+            <name>Sranko Informatik / Juraj Sranko</name>
+            <email>jus@sranko-informatik.de</email>
+            <organization>de.sranko-informatik</organization>
+            <organizationUrl>https://www.sranko-informatik.de</organizationUrl>
+        </developer>
+    </developers>
+
     <modules>
         <module>core</module>
         <module>gui</module>
