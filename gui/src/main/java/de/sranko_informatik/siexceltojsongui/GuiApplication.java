@@ -3,6 +3,7 @@ package de.sranko_informatik.siexceltojsongui;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/*
 @SpringBootApplication
 public class GuiApplication {
 
@@ -10,4 +11,4 @@ public class GuiApplication {
         SpringApplication.run(GuiApplication.class, args);
     }
 
-}
+} */
